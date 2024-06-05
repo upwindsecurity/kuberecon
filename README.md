@@ -9,7 +9,7 @@ Kube Recon is a Python script designed for Kubernetes container reconnaissance.
 To use the script, execute the following command in your terminal from inside a Kubernetes container:
 
 ```bash
-python3 kube_recon.py
+python3 kuberecon.py
 ```
 
 ## Current Tests
@@ -22,7 +22,7 @@ python3 kube_recon.py
 ## Example output
 
 ```bash
-root@container:/home# python3 kube_recon.py
+root@container:/home# python3 kuberecon.py
  _  __     _            ____
 | |/ /   _| |__   ___  |  _ \ ___  ___ ___  _ __
 | ' / | | | '_ \ / _ \ | |_) / _ \/ __/ _ \| '_ \
@@ -48,7 +48,7 @@ by Upwind
 	KUBERNETES_SERVICE_HOST=172.20.0.1
 
 [TEST] List files related to kubernetes
-	/home/kube_recon.py
+	/home/kuberecon.py
 	/run/secrets/kubernetes.io
 
 [TEST] List mounts to nodes file system
