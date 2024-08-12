@@ -17,6 +17,7 @@ To use the script, execute the following command in your terminal from inside a 
 ## Example output
 
 The script will output a csv file in the current folder named `permissions.csv`
+
 ```bash
 root@container:/home# cat permissions.csv
 

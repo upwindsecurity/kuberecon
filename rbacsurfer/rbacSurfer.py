@@ -17,10 +17,16 @@ high_privilege_actions = {
     'rolebindings': ['create', 'update', 'patch', 'delete', 'bind'],
     'secrets': ['get', 'list', 'update', 'patch', 'delete'],
     'configmaps': ['get', 'list', 'create', 'update', 'patch', 'delete'],
-    'pods/exec': ['create'],
-    'pods': ['exec'],
-    'serviceaccounts': ['create', 'update', 'patch', 'delete']
+    'pods/exec': ['exec'],
+    'pods': ['create', 'update', 'patch', 'exec'],
+    'serviceaccounts': ['create', 'delete'],
+    'workloads': ['create', 'patch', 'update', 'delete'],
+    'nodes': ['create', 'update', 'patch', 'delete'],
+    'networkpolicies': ['create', 'update', 'delete'],
+    'persistentvolumes': ['create', 'update', 'delete'],
+    'persistentvolumeclaims': ['create', 'update', 'delete']
 }
+
 
 def is_high_privilege(privileges):
     reason = []
