@@ -11,7 +11,7 @@
 To use the script, execute the following command in your terminal from inside a Kubernetes container:
 
 ```bash
-./pereef.sh
+root@container:/home# ./pereef.sh
 ```
 
 ## Example output
